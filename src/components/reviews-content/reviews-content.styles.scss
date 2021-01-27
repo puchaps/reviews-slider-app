@@ -1,0 +1,15 @@
+.reviews-content {
+  width: 80%;
+  margin: 100px auto;
+
+  .collection {
+    opacity: 0;
+    transition-duration: 1s ease-out;
+  }
+  
+  .collection-active {
+    opacity: 1;
+    transition-duration: 1s;
+    
+  }
+};
