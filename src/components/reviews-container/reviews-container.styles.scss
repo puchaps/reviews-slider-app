@@ -17,7 +17,7 @@
         background-color: rgba(255, 255, 255, 0.6);
         box-shadow: 0 1px 6px black;
         bottom: 40%;
-        right: 37%;
+        right: 35%;
       }
 
       &:before {
@@ -28,7 +28,82 @@
         background-color: rgba(255, 255, 255, 0.6);
         box-shadow: 0 1px 6px black;
         bottom: 40%;
-        left: 37%;
+        left: 35%;
+      }
+    }
+  }
+};
+
+@media screen and(max-width: 1024px) {
+  .reviews-container {
+    width: 80%;
+    margin-top: 30px;
+
+    .reviews-container-title {
+      h1 {
+        font-size: 30px;
+
+        &:after {
+          width: 10%;
+          height: 2px;
+          right: 30%;
+        }
+  
+        &:before {
+          width: 10%;
+          height: 2px;
+          left: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .reviews-container {
+    width: 80%;
+    margin-top: 30px;
+
+    .reviews-container-title {
+      h1 {
+        font-size: 30px;
+
+        &:after {
+          width: 10%;
+          height: 2px;
+          right: 22%;
+        }
+  
+        &:before {
+          width: 10%;
+          height: 2px;
+          left: 22%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 425px) {
+  .reviews-container {
+    width: 100%;
+    margin-top: 30px;
+
+    .reviews-container-title {
+      h1 {
+        font-size: 25px;
+
+        &:after {
+          width: 10%;
+          height: 2px;
+          right: 20%;
+        }
+  
+        &:before {
+          width: 10%;
+          height: 2px;
+          left: 20%;
+        }
       }
     }
   }
