@@ -1,11 +1,11 @@
-import './custom-arrow.styles.scss';
+/* eslint-disable react/jsx-props-no-spreading */
+import React from "react";
 
-const CustomArrow = ({ typeArrow = '', children, ...otherProps}) => {
-  return (
-    <div className={`custom-arrow ${typeArrow}`} {...otherProps}>
-      <span>{children}</span>
-    </div>
-  );
-};
+import "./custom-arrow.styles.scss";
 
+const CustomArrow = ({ onTypeArrow = "", children, ...otherProps }) => (
+  <div className={`custom-arrow ${onTypeArrow}`} {...otherProps}>
+    {children}
+  </div>
+);
 export default CustomArrow;
